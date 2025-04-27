@@ -12,16 +12,10 @@ dependencies {
 }
 
 javafx {
-    version = "21.0.2"
+    version = "24.0.1"
     modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
 
 application {
     mainClass = 'com.anthony.sudoku.Main'
-}
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(24)
-    }
 }
